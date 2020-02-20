@@ -4,7 +4,7 @@ var nbEtages = window.prompt("Salut, bienvenue dans ma super pyramide ! Combien 
 var char2 = '*'; // chaine de caractères d'étoiles
 var char1;		// chaine de caractères contenant des espaces 
 if (nbEtages <= 25) { // Affichage de pyramide
-	 
+	console.log("Voici la pyramide : ");
 	for (let i = 1; i <= nbEtages ; i++) {  // Boucle pour parcourir les étages
 	
 		char1 = ' '; 					
